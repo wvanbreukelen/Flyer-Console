@@ -112,6 +112,14 @@ class Application
 		return $bridgeHandler;
 	}
 
+	public function addCommands(array $commands = array())
+	{
+		foreach ($commands as $command)
+		{
+			$this->addCommand($command);
+		}
+	}
+
 	/**
 	 * Add a command to the application
 	 * @param Command $command Your command instance

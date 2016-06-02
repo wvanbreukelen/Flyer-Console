@@ -2,6 +2,8 @@
 
 namespace Flyer\Console\Commands;
 
+use Flyer\Console\Exceptions\ConsoleAppException;
+
 class Command extends CommandAbstract
 {
 	/**

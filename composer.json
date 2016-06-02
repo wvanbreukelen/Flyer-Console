@@ -1,6 +1,6 @@
 {
     "name": "flyer/console",
-    "description": "Flyer PHP console toolkit",
+    "description": "The Flyer PHP console toolkit",
     "keywords": ["flyer", "console"],
     "license": "MIT",
     "authors": [

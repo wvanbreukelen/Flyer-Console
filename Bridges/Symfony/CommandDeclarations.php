@@ -2,13 +2,12 @@
 
 namespace Flyer\Console\Bridges\Symfony;
 
-use Flyer\Console\Commands\CommandAbstract;
 use Flyer\Console\Application;
 use Symfony\Component\Console\Question\Question;
 use Symfony\Component\Console\Question\ChoiceQuestion;
 use Symfony\Component\Console\Question\ConfirmationQuestion;
 
-class CommandDeclarations extends CommandAbstract
+class CommandDeclarations
 {
 	public function confirm($args)
 	{
